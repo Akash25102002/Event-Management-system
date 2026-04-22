@@ -1,0 +1,6 @@
+<?php
+require 'config.php';
+$_SESSION = [];
+session_destroy();
+redirect('index.php');
+?>
